@@ -18,6 +18,7 @@ document.querySelector(".container").innerHTML +=
 	        '<h2>' + jokeline.type + " Joke" + '</h2>' +
 	        '<div class="jokesetup">'+ jokeline.setup  +'</div>' +
             '<div class="joke punchline">'+ jokeline.punchline + '</div>' 
+document.title = 'Funny jokes '
 }
 
 
