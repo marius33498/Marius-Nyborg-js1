@@ -10,15 +10,15 @@
 		showJoke(API);
 	})
     .catch(function(error){
-	 console.log(error);
+	   document.querySelector("h1").innerHTML += error.message;
  })
 
 function showJoke(jokeline){
 document.querySelector(".container").innerHTML += 
 	        '<h2>' + jokeline.type + " Joke" + '</h2>' +
 	        '<div class="jokesetup">'+ jokeline.setup  +'</div>' +
-            '<div class="joke punchline">'+ jokeline.punchline + '</div>' 
-document.title = 'Funny jokes '
+            '<div class="joke punchline">'+ jokeline.punchline + '</div>'
+	 document.title = 'Funny jokes '
 }
 
 

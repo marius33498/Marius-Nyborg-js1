@@ -29,12 +29,3 @@ function showJoke(jokePush){
                '</div>'
 	}
 } 
-
-/*
-function showJoke(jokePush){
-		 for (let i =5; i <jokePush.length; i++){
-		document.querySelector(".setup").innerHTML += '<div class="setup">' + '<p>' + jokePush[i].setup + '</p>''</div>';
-			 
-		document.querySelector(".punchline").innerHTML += "<p>" +jokePush[i].punchline + "</p>";	 
-	}
-}*/
